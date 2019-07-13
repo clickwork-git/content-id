@@ -2,6 +2,6 @@
 	"plugin-data":
 	{
 		"name": "Content ID",
-		"description": "Display of the ID of a content (page)."
+		"description": "Display of the ID of a content (page or post)."
 	}
 }
