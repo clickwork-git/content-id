@@ -19,8 +19,8 @@ class pluginContentID extends Plugin {
  		$html .= 'var uuid = $("#jsuuid").val()'.PHP_EOL;
  		$html .= '$uuid = uuid'.PHP_EOL;
  		$html .= 'if( $uuid != "" ) {'.PHP_EOL;
- 		$html .= '$( "#jsswitchButton" ).append( "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Content ID:</em> ")'.PHP_EOL;
- 		$html .= '$( "#jsswitchButton" ).append( uuid )'.PHP_EOL;
+ 		$html .= '$( ".switch-button" ).append( "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>Content ID:</em> ")'.PHP_EOL;
+ 		$html .= '$( ".switch-button" ).append( uuid )'.PHP_EOL;
  		$html .= '}'.PHP_EOL;
  		$html .= '</script>'.PHP_EOL;
  		return $html;
